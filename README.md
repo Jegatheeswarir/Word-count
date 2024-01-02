@@ -30,7 +30,7 @@ End the program
 #Register number: 23013697
 '''
 num=0
-with open("words.py","r")as f1:
+with open("words.txt","r")as f1:
     for i in f1:
         words=i.split()
         num +=len(words)
@@ -39,8 +39,7 @@ print("The number of words is in the file is ",num)
 ```
 
 ### OUTPUT:
-![output](<Screenshot 2024-01-02 143732.png>)
-
+![output](<Screenshot 2024-01-02 150052.png>)
 
 
 ## RESULT:
